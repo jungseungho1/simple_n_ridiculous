@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 715f7d0a7425e4554bef36e5c586b943
+timeCreated: 1489769783
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mrs Eaves OT
+  fontNames:
+  - Mrs Eaves OT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
