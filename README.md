@@ -2,6 +2,7 @@
 ##### Parsons MFADT Recursive Reality Final Project
 
 ### To do:
+- [ ] Use updated Unity v5.6
 - [ ] Smoother transitions
 - [ ] Looping background music
 - [ ] Strong narrative that hits you in the FEELS
