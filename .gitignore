@@ -1,8 +1,5 @@
-
-Memories/\.vs/
-
-Memories/\.DS_Store
-
 \.DS_Store
-
-*.meta
+Memories/\.DS_Store
+Memories/\.vs/
+Memories/Library/
+Memories/Temp/
