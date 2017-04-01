@@ -1,7 +1,7 @@
 # Simple & Ridiculous
 ##### Parsons MFADT Recursive Reality Final Project
 
-#### Let's **NOT** use the latest Unity v5.6. I found it to be crashing constantly.
+#### Stick with Unity v.5.5.3. I found the latest Unity v5.6 to be crashing constantly.
 
 ### To do:
 - [ ] Smoother transitions
