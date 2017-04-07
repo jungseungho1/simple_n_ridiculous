@@ -5,16 +5,15 @@
 
 ### To do:
 - [ ] Tutorial on how to walk
+- [ ] Zoom in Credit in the end scene
 - [ ] Smoother transitions
 - [ ] Looping background music
 - [ ] Strong narrative that hits you in the FEELS
+- [ ] Voiceover
 - [ ] More levels
 	- [ ] Paper Crane Constellation
-	- [ ] Fold Paper Crane
 	- [ ] Paper Crane Crossing Bridge
-	- [ ] World Building by Paper
-- [ ] Voiceover
-- [ ] Start screen with options
+- [ ] Start screen with Options
 - [ ] Optimization
 
 ### Gameplay Video
