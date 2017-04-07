@@ -4,6 +4,7 @@
 #### Stick with Unity v.5.5.3. I found the latest Unity v5.6 to be crashing constantly.
 
 ### To do:
+- [ ] Tutorial on how to walk
 - [ ] Smoother transitions
 - [ ] Looping background music
 - [ ] Strong narrative that hits you in the FEELS
