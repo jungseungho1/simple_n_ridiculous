@@ -10,7 +10,8 @@ public class LoadSceneDreamGame : MonoBehaviour {
 	public int countdown = 0;
 
 	void Update () {
-		if (countdown == 3) {
+//		if (countdown == 3) {
+		if (countdown == 1) {
 			SceneManager.LoadScene (levelToLoad);
 		}
 	}
