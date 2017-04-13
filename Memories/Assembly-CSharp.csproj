@@ -48,6 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\AssetStore\GemExample\Scripts\DemoTimeOfDay.cs" />
      <Compile Include="Assets\AssetStore\GemExample\Scripts\Orbit.cs" />
+     <Compile Include="Assets\AssetStore\Simple Scene Fade Load System\Scripts\DemoScript.cs" />
+     <Compile Include="Assets\AssetStore\Simple Scene Fade Load System\Scripts\Fader.cs" />
+     <Compile Include="Assets\AssetStore\Simple Scene Fade Load System\Scripts\Initiate.cs" />
      <Compile Include="Assets\AssetStore\VR-Step\Scripts\ChildOnlyPosition.cs" />
      <Compile Include="Assets\AssetStore\VR-Step\Scripts\PlaySoundOnStep.cs" />
      <Compile Include="Assets\AssetStore\VR-Step\Scripts\StepDetector.cs" />
@@ -230,6 +233,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\AssetStore\Simple Scene Fade Load System\ReadMeFirst.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\GazeClick\Advanced Instructions.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
