@@ -7,11 +7,13 @@ public class LoadSceneDreamGame : MonoBehaviour {
 
 	RaycastHit hit;
 	public string levelToLoad;
-	public int countdown = 0;
+    public Color loadToColor = Color.black;
+    public int countdown = 0;
 
 	void Update () {
-		if (countdown == 3) {
-			SceneManager.LoadScene (levelToLoad);
+		if (countdown >= 1) {
+            Initiate.Fade(levelToLoad, loadToColor, 3.0f);
+//            SceneManager.LoadScene (levelToLoad);
 		}
 	}
 }
