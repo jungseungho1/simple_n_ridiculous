@@ -6,13 +6,13 @@
 ### To do:
 - [ ] Tutorial on how to walk
 - [ ] Zoom in Credit in the end scene
-- [ ] Smoother transitions
+- [x] Smoother transitions - Seung ho
 - [ ] Looping background music
 - [ ] Strong narrative that hits you in the FEELS
 - [ ] Voiceover
 - [ ] More levels
-	- [ ] Paper Crane Constellation
-	- [ ] Paper Crane Crossing Bridge
+ - [ ] Paper Crane Constellation
+ - [ ] Paper Crane Crossing Bridge
 - [ ] Start screen with Options
 - [ ] Optimization
 

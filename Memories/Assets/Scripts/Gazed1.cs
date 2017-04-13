@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Gazed1 : MonoBehaviour {
 
     public string levelToLoad;
+    public Color loadToColor = Color.black;
     public Material inactiveMaterial;
 	public Material gazedAtMaterial;
 	bool clicked = false;
@@ -23,6 +24,7 @@ public class Gazed1 : MonoBehaviour {
 
     public void Clicked()
     {
-        SceneManager.LoadScene(levelToLoad);
+        Initiate.Fade(levelToLoad, loadToColor, 3.0f);
+//        SceneManager.LoadScene(levelToLoad);
     }
 }

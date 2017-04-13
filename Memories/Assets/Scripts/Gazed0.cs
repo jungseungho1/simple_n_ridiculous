@@ -9,6 +9,7 @@ public class Gazed0 : MonoBehaviour {
 	public Material inactiveMaterial;
 	public Material gazedAtMaterial;
     public string levelToLoad;
+    public Color loadToColor = Color.black;
     bool clicked = false;
 
 	void Start() {
@@ -23,6 +24,7 @@ public class Gazed0 : MonoBehaviour {
 
     public void Clicked()
     {
-        SceneManager.LoadScene(levelToLoad);
+        Initiate.Fade(levelToLoad, loadToColor, 3.0f);
+//        SceneManager.LoadScene(levelToLoad);
     }
 }
