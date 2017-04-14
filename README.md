@@ -5,7 +5,7 @@
 
 ### To do:
 - [ ] Tutorial on how to walk
-- [ ] Zoom in Credit in the end scene
+- [x] Zoom in Credit in the end scene - Seung ho
 - [x] Smoother transitions - Seung ho
 - [ ] Looping background music
 - [ ] Strong narrative that hits you in the FEELS
