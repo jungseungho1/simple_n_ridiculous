@@ -149,11 +149,13 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\LoadSceneOnTrigger.cs" />
      <Compile Include="Assets\Scripts\CaughtIt.cs" />
      <Compile Include="Assets\Scripts\Creator.cs" />
      <Compile Include="Assets\Scripts\CubeMove.cs" />
      <Compile Include="Assets\Scripts\DestroyOnTrigger.cs" />
      <Compile Include="Assets\Scripts\DisableOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\GazeDrawLine.cs" />
      <Compile Include="Assets\Scripts\Gazed.cs" />
      <Compile Include="Assets\Scripts\Gazed0.cs" />
      <Compile Include="Assets\Scripts\Gazed1.cs" />

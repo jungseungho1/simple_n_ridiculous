@@ -10,9 +10,9 @@
 - [ ] Looping background music
 - [ ] Strong narrative that hits you in the FEELS
 - [ ] Voiceover
-- [ ] More levels
- - [ ] Paper Crane Constellation
- - [ ] Paper Crane Crossing Bridge
+- [x] More levels
+ - [x] Paper Crane Constellation - Aimee
+ - [x] Paper Crane Crossing Bridge - Seung ho
 - [ ] Start screen with Options
 - [ ] Optimization
 
