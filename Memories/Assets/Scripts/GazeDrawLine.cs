@@ -24,11 +24,11 @@ public class GazeDrawLine : MonoBehaviour {
 	void Update () {
 
 	
-//		if (completed) {
-//				GameObject Player = GameObject.Find("Player");
-//				LoadSceneDreamGame loadScript = Player.GetComponent<LoadSceneDreamGame>();
-//				loadScript.countdown ++;
-//		}
+		if (completed) {
+				GameObject Player = GameObject.Find("Player");
+				LoadSceneDreamGame loadScript = Player.GetComponent<LoadSceneDreamGame>();
+				loadScript.countdown ++;
+		}
 	}
 
 	public void SetGazedAt(bool gazedAt) {
@@ -45,7 +45,8 @@ public class GazeDrawLine : MonoBehaviour {
 			LineRenderer lineRenderer = insLine.GetComponent<LineRenderer>();
 			int posNum = lineRenderer.numPositions;
 			lineRenderer.SetVertexCount(posNum+1);
-			lineRenderer.SetPosition(posNum, new Vector3(insObject.transform.position.x, insObject.transform.position.y, insObject.transform.position.z));		
+			lineRenderer.SetPosition(posNum, new Vector3(insObject.transform.position.x, insObject.transform.position.y, insObject.transform.position.z));
+			this.GetComponent<BoxCollider> ().enabled = false;
 		}
 
 		if(insObject.transform.name == "PaperCraneSmall" && !completed)
@@ -55,7 +56,7 @@ public class GazeDrawLine : MonoBehaviour {
 			lineRenderer.SetVertexCount(posNum+1);
 			lineRenderer.SetPosition(posNum, new Vector3(-9.37f, 15.39f, 6.72f));		
 
-//			completed = true;
+			completed = true;
 		}
 
 	}
