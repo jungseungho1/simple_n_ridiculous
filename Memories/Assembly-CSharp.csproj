@@ -55,6 +55,7 @@
      <Compile Include="Assets\AssetStore\VR-Step\Scripts\PlaySoundOnStep.cs" />
      <Compile Include="Assets\AssetStore\VR-Step\Scripts\StepDetector.cs" />
      <Compile Include="Assets\AssetStore\VR-Step\Scripts\WIPController.cs" />
+     <Compile Include="Assets\DelayedLoadScene.cs" />
      <Compile Include="Assets\GazeClick\Implementation\GazeClick.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
@@ -156,10 +157,12 @@
      <Compile Include="Assets\Scripts\DestroyOnTrigger.cs" />
      <Compile Include="Assets\Scripts\DisableOnTrigger.cs" />
      <Compile Include="Assets\Scripts\GazeDrawLine.cs" />
+     <Compile Include="Assets\Scripts\GazeDrawLine1.cs" />
      <Compile Include="Assets\Scripts\Gazed.cs" />
      <Compile Include="Assets\Scripts\Gazed0.cs" />
      <Compile Include="Assets\Scripts\Gazed1.cs" />
      <Compile Include="Assets\Scripts\InstantiateOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\Line.cs" />
      <Compile Include="Assets\Scripts\LoadScene0.cs" />
      <Compile Include="Assets\Scripts\LoadSceneDreamGame.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnCollision.cs" />

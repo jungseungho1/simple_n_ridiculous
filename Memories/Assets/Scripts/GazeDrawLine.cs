@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GazeDrawLine : MonoBehaviour {
 
-    public string levelToLoad;
+//    public string levelToLoad;
     public Material inactiveMaterial;
 	public Material gazedAtMaterial;
 
@@ -42,19 +42,19 @@ public class GazeDrawLine : MonoBehaviour {
 		{
 			insObject.SetActive(true);
 
-			LineRenderer lineRenderer = insLine.GetComponent<LineRenderer>();
-			int posNum = lineRenderer.numPositions;
-			lineRenderer.SetVertexCount(posNum+1);
-			lineRenderer.SetPosition(posNum, new Vector3(insObject.transform.position.x, insObject.transform.position.y, insObject.transform.position.z));
+//			LineRenderer lineRenderer = insLine.GetComponent<LineRenderer>();
+//			int posNum = lineRenderer.numPositions;
+//			lineRenderer.SetVertexCount(posNum+1);
+//			lineRenderer.SetPosition(posNum, new Vector3(insObject.transform.position.x, insObject.transform.position.y, insObject.transform.position.z));
 			this.GetComponent<BoxCollider> ().enabled = false;
 		}
 
 		if(insObject.transform.name == "PaperCraneSmall" && !completed)
 		{
-			LineRenderer lineRenderer = insLine.GetComponent<LineRenderer>();
-			int posNum = lineRenderer.numPositions;
-			lineRenderer.SetVertexCount(posNum+1);
-			lineRenderer.SetPosition(posNum, new Vector3(-9.37f, 15.39f, 6.72f));		
+//			LineRenderer lineRenderer = insLine.GetComponent<LineRenderer>();
+//			int posNum = lineRenderer.numPositions;
+//			lineRenderer.SetVertexCount(posNum+1);
+//			lineRenderer.SetPosition(posNum, new Vector3(-9f, 15f, 4f));		
 
 			completed = true;
 		}
