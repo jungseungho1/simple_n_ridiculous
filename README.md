@@ -7,8 +7,9 @@
 - [ ] Tutorial on how to walk
 - [x] Zoom in Credit in the end scene - Seung ho
 - [x] Smoother transitions - Seung ho
-- [ ] Looping background music
-- [ ] Strong narrative that hits you in the FEELS
+- [x] Looping background music
+- [x] Strong narrative that hits you in the FEELS
+- [ ] More obvious hints
 - [ ] Voiceover
 - [x] More levels
  - [x] Paper Crane Constellation - Aimee
