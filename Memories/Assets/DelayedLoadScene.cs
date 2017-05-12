@@ -7,7 +7,7 @@ public class DelayedLoadScene : MonoBehaviour {
 
 	public string levelToLoad;
 	public Color loadToColor = Color.black;
-	public float timeToStart = 5.0f;
+	public float timeToStart = 3.0f;
 
 	// Use this for initialization
 	void Start () {

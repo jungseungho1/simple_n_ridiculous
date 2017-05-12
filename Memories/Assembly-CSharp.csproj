@@ -175,6 +175,7 @@
      <Compile Include="Assets\Scripts\RotateOnTrigger.cs" />
      <Compile Include="Assets\Scripts\perlinWaves.cs" />
      <Compile Include="Assets\Scripts\reverseNormal.cs" />
+     <Compile Include="Assets\delayActivate.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
